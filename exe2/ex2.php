@@ -13,7 +13,7 @@
         $n = $_GET["nome"];
         $a = $_GET["ano"];
         $id  = date("Y") - $a ;
-        if ($id >= 0 && $id <=11) {
+        if ($id <=11) {
             echo "$n";
             echo "</br>criança ";
            

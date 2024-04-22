@@ -21,12 +21,8 @@
         $diferenca = $data_atual -> diff($data_nasc);
         $idade = $diferenca ->y;
         echo "Nome: $n &#10004;&#65039;";
-        echo "</br>E-mail: $e &#128242;";
         echo "</br>Idade: $idade &#128197;";
-        echo "</br>Sexo: $sex &#10004;&#65039;";
-        echo "</br>Status civil: $st &#10004;&#65039;";
         echo "</br>Profissão: $p &#128188;";
-    
     ?>
     </br>
     <a href="ex4.html"><button>Voltar</button></a>

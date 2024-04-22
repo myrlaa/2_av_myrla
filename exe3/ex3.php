@@ -20,13 +20,13 @@
         echo "Aluno: $n";
         echo "</br>Média: $media";
         echo "</br>Situação: Aprovado &#9786; &#10004;";
-    }elseif ($media >= 5 && $media <=6) {
+    }elseif ($media >= 5 && floor($media) <=6) {
         echo "Aluno: $n";
-        echo "</br>Média: $media";
+        echo "</br>Média: ".floor($media);
         echo "</br>Situação: Recuperação &#128549; &#128078;";
     }else{
         echo "Aluno: $n";
-        echo "</br>Média: $media";
+        echo "</br>Média: $media ";
         echo "</br>Situação: Reprovado &#10008; &#9785;";
     }
     ?>
